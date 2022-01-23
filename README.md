@@ -23,4 +23,8 @@ Expiry date of the fourth item is 24 hours.
 #### G. Ask for the proper permissions when needed
 
 ## Video and Screenshots for the working application
-[![asciicast](https://github.com/ShadySamirBakheet/Expiry-Date-Tracker/blob/main/Shots/Screenshot_20220123_183248.jpg)](https://github.com/ShadySamirBakheet/Expiry-Date-Tracker/blob/main/Shots/video_20220123_182047_edit.mp4)
+
+https://user-images.githubusercontent.com/33626785/150689641-4de8322e-1063-49af-8509-4b7dd216b504.mp4
+
+## A working [APK.](https://github.com/ShadySamirBakheet/Expiry-Date-Tracker/blob/main/app-release.apk)
+
