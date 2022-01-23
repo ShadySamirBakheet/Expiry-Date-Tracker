@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.product.ProductDetailsActivity">
+
+    <Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="0dp"
+        android:elevation="1dp"
+        android:background="@drawable/toolbar">
+
+        <LinearLayout
+            android:gravity="center"
+            android:paddingHorizontal="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:text="@string/add_new_product"/>
+
+        </LinearLayout>
+    </Toolbar>
+
+    <ScrollView
+        android:layout_below="@id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/txtColor1"
+                android:textSize="16sp"
+                android:layout_margin="16sp"
+                android:layout_weight="1"
+                android:text="date"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_product_name"
+                android:textColorHint="@color/txtColor1"
+                app:hintTextColor="@color/txtColor1"
+                app:boxStrokeWidth="1dp"
+                android:layout_margin="8dp"
+                app:boxStrokeColor="@color/inputBoxColor"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:textSize="14sp"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/txtColor1"
+                    android:layout_height="wrap_content"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_product_category"
+                android:textColorHint="@color/txtColor1"
+                app:hintTextColor="@color/txtColor1"
+                app:boxStrokeWidth="1dp"
+                android:layout_margin="8dp"
+                app:boxStrokeColor="@color/inputBoxColor"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/category"
+                    android:layout_width="match_parent"
+                    android:textSize="14sp"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/txtColor1"
+                    android:layout_height="wrap_content"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/txtColor1"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                android:paddingHorizontal="8dp"
+                android:layout_weight="1"
+                android:text="@string/expired_data"/>
+
+            <LinearLayout
+                android:id="@+id/getDate"
+                android:gravity="center"
+                android:layout_margin="8dp"
+                android:padding="4dp"
+                android:background="@drawable/box_shape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/txtColor1"
+                    android:textSize="16sp"
+                    android:layout_marginHorizontal="8dp"
+                    android:layout_weight="1"
+                    android:text="date"/>
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/calendar"
+                    android:padding="8dp"
+                    app:tint="@color/txtColor1" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/btnSubmit"
+                style="@style/btnStyleHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="16dp"
+                android:background="@drawable/btn_app3"
+                android:text="@string/save"
+                android:textColor="@color/txtColor2"
+                android:textSize="17dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

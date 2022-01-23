@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.home.HomeActivity">
+
+    <Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="0dp"
+        android:background="@drawable/toolbar">
+
+        <LinearLayout
+            android:gravity="center"
+            android:paddingHorizontal="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:text="@string/home"/>
+
+            <ImageView
+                android:id="@+id/barCodeBtn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/barcode"
+                android:padding="8dp"
+                app:tint="@color/white" />
+
+            <ImageView
+                android:id="@+id/expiryDateBtn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/expiry_date"
+                android:padding="8dp"
+                app:tint="@color/white" />
+
+        </LinearLayout>
+    </Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/items"
+        android:paddingHorizontal="12dp"
+        android:paddingBottom="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolBar"
+        tools:listitem="@layout/item_info"/>
+
+    <LinearLayout
+        android:id="@+id/empty"
+        android:visibility="gone"
+        android:layout_below="@id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/empty"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="32dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/txtColor1"
+            android:lineHeight="32dp"
+            android:textFontWeight="500"
+            android:text="@string/add_new_scanned_barcode_product_from_barcode_scanner"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

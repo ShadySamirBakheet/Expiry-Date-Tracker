@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Expiry Date Tracker</string>
+    <string name="welcome_dear">Welcome Dear!</string>
+    <string name="home">Home</string>
+    <string name="barcode_scanner">Barcode Scanner</string>
+    <string name="expired_items">Expired Items</string>
+    <string name="place_barcode_in_lens_to_scan">Place barcode in lens to scan</string>
+    <string name="ok">OK</string>
+    <string name="view">View</string>
+    <string name="enter_product_name">Enter Product Name</string>
+    <string name="enter_product_category">Enter Product Category</string>
+    <string name="add_new_product">Add New Product</string>
+    <string name="expired_data">Expired Date</string>
+    <string name="save">Save</string>
+    <string name="hoursleft">Hours left</string>
+    <string name="Daysleft">Days left</string>
+    <string name="Expires">Expires on</string>
+    <string name="ExpiresToday">Expires on Today</string>
+    <string name="add_new_scanned_barcode_product_from_barcode_scanner">Add New Scanned Barcode Product from Barcode scanner</string>
+</resources>

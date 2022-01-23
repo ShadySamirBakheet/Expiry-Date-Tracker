@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="purple_500">#ff5656</color>
+    <color name="purple_700">#ff5656</color>
+    <color name="teal_200">#ff5656</color>
+    <color name="teal_700">#ff5656</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--App Color-->
+    <color name="btnColor1">#ff5656</color>
+    <color name="btnColor2">#ffffff</color>
+    <color name="btnColor3">#d5d5d5</color>
+
+    <color name="txtColor1">#FFF</color>
+    <color name="txtColor2">#FF000000</color>
+    <color name="txtColor4">#CDCBCB</color>
+
+    <color name="statusBarColor">#424240</color>
+    <color name="toolBarColor">#8800FF</color>
+
+    <color name="cardBackgroundColor">#474746</color>
+
+    <color name="background">#555555</color>
+    <color name="inputBoxColor" tools:override="true" >#8800FF</color>
+
+</resources>

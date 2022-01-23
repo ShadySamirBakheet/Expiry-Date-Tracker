@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">تعقب تاريخ انتهاء الصلاحية</string>
+    <string name="welcome_dear">هلا بك عزيزي!</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="barcode_scanner">ماسح الباركود</string>
+    <string name="expired_items">العناصر منتهية الصلاحية</string>
+    <string name="place_barcode_in_lens_to_scan">ضع الرمز الشريطي في العدسة للمسح الضوئي</string>
+    <string name="ok">موافق</string>
+    <string name="view">عرض</string>
+    <string name="enter_product_name">أدخل اسم المنتج</string>
+    <string name="enter_product_category">أدخل فئة المنتج</string>
+    <string name="add_new_product">اضافة منتج جديد</string>
+    <string name="expired_data">تاريخ انتهاء الصلاحية</string>
+    <string name="save">حفظ</string>
+    <string name="hoursleft">ساعات متبقية</string>
+    <string name="Daysleft">أيام متبقية</string>
+    <string name="Expires">انتهاء في</string>
+    <string name="ExpiresToday">انتهاء في هذا اليوم</string>
+    <string name="add_new_scanned_barcode_product_from_barcode_scanner">أضف منتج باركود جديد ممسوح ضوئيًا من ماسح الباركود</string>
+</resources>
